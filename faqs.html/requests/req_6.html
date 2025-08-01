@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Request #6 - Image expiring after sometime</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+    body {
+        background-color: #2c2f33;
+        color: #ddd;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 2rem;
+    }
+    .message {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .message img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+    .message-content {
+        background-color: #23272a;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        max-width: 90%;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    .message-content strong {
+        color: #7289da;
+    }
+    a {
+        color: #7289da;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+<h1>Request #6 - Image expiring after sometime</h1>
+<p><a href="../FAQs.html">← Back to FAQ Index</a></p>
+<div class="messages">
+    
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1377511320269623328/afb8eae98391ed1d0b9aa38beeb754d9.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>letsroti.com/helper</strong><br>
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1377511320269623328/afb8eae98391ed1d0b9aa38beeb754d9.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>letsroti.com/helper</strong><br>@[Very limited]-Dm in(its_gimfoo)
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1276885802894491669/0820335106af772fc84bccf6a2170fd6.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>[Very limited]-Dm in(its\_gimfoo)</strong><br>Image not loading in ticket panel
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1146451538181623908/738249156d95aaa120b22fe070bd1ec8.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>lakshayay</strong><br>The issue, as mentioned above, occurs due to the expiration parameters in the image link. <br>You can easily fix this by removing the parameters from the link:<br><br>&gt; ✅ Works consistently:<br>&gt; `https://cdn.discordapp.com/attachments/1380312980226576495/1380312981023490048/images.png`<br><br>&gt; ❌ May expire and break:<br>&gt; `https://cdn.discordapp.com/attachments/1380312980226576495/1380312981023490048/images.png?ex=68436c23&amp;is=68421aa3&amp;hm=7aa7dcb2115a7e2316a404fa4fd617f2c009f5c2266fd7cb0b45f04cad246de1&amp;`
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1146451538181623908/738249156d95aaa120b22fe070bd1ec8.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>lakshayay</strong><br>To make the image URL consistent and prevent it from expiring, simply remove everything after the ?, including the ? itself.<br>In this case, remove:<br>```?ex=68436c23&amp;is=68421aa3&amp;hm=7aa7dcb2115a7e2316a404fa4fd617f2c009f5c2266fd7cb0b45f04cad246de1&amp;```This leaves you with a clean, permanent link that won&#x27;t break in embeds.
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1146451538181623908/738249156d95aaa120b22fe070bd1ec8.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>lakshayay</strong><br>&gt; To edit the current embed, use the `/editembed` command and replace the image
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1377511320269623328/afb8eae98391ed1d0b9aa38beeb754d9.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>letsroti.com/helper</strong><br>
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <img src="https://cdn.discordapp.com/avatars/1377511320269623328/afb8eae98391ed1d0b9aa38beeb754d9.png?size=1024" alt="avatar" loading="lazy" />
+                    <div class="message-content">
+                        <strong>letsroti.com/helper</strong><br>#6 - Request Completed
+                    </div>
+                </div>
+                
+</div>
+</body>
+</html>
